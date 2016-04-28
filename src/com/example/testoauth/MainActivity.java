@@ -51,6 +51,7 @@ public class MainActivity extends Activity {
 		String userPwd;
 		userName = userNameEdit.getText().toString();
 		userPwd = userPwdEdit.getText().toString();
+		//gaozhuqing
 	}
 	
 	public void viewInit(){
