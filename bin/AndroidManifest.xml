@@ -12,9 +12,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+       android:theme="@style/AppTheme" 
+       >
         <activity
-            android:name=".MainActivity"
+            android:name="com.testoauth.im.main.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +23,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+         <activity
+            android:name="com.testoauth.im.main.MainInterfaceActivity"
+            android:label="@string/app_name" 
+           ></activity>
+        <activity
+            android:name="com.testoauth.im.main.ActionBarActivity"
+            android:label="@string/app_name" 
+           ></activity>
+         <activity
+            android:name="com.testoauth.activity.LoginActivity"
+            android:label="@string/app_name" >
+         </activity>
+          </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-     <uses-permission android:name="android.permission.ACCOUNT_MANAGER" /> 
     <uses-permission android:name="android.permission.INTERNET" /> 
 
 </manifest>
