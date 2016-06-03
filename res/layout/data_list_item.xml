@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:weightSum="2"
+    android:id="@+id/caseItem"
+    >
+   
+ 	 <TextView
+        android:id="@+id/netlistitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_margin="10dip"
+        android:layout_marginLeft="15dip"
+        android:text="执行数据"
+        android:textColor="@color/gray_white"
+        android:textSize="16sp" 
+        android:layout_weight="1.98"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+ 
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:layout_weight="0.02"
+         android:clickable="false"
+        android:focusable="false"
+         android:focusableInTouchMode="false" 
+         android:checked="false"
+         
+        
+        />
+ 
+</LinearLayout>

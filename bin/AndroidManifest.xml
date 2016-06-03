@@ -35,6 +35,18 @@
             android:name="com.testoauth.activity.LoginActivity"
             android:label="@string/app_name" >
          </activity>
+          <activity
+            android:name="com.testoauth.activity.dataActivity"
+            android:label="@string/app_name" >
+         </activity>
+          <activity
+            android:name="com.testoauth.activity.LocalFragment"
+            android:label="@string/app_name" >
+         </activity>
+          <activity
+            android:name="com.testoauth.activity.NetFragment"
+            android:label="@string/app_name" >
+         </activity>
           </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

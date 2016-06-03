@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+            <item android:id="@+id/allCheck"
+                android:showAsAction="never"
+                android:title="全选"
+                android:orderInCategory="1"
+                />
+            <item
+                android:id="@+id/allRun"
+                android:showAsAction="never"
+                android:title="批量执行"
+                android:orderInCategory="2"
+                />
+            <item
+                android:id="@+id/allDelete"
+                android:showAsAction="never"
+                android:title="批量删除"
+                android:orderInCategory="3"
+                />
+        
+</menu>
