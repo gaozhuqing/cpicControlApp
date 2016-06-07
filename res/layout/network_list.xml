@@ -3,12 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <ListView 
+  <com.testoauth.viewMethod.XListView
         android:id="@+id/netlist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:cacheColorHint="@color/transparent"
-        android:listSelector="@drawable/list_select_gray"
-        android:background="#FFFFFF"
-        android:scrollbars="none"></ListView>
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" >
+    </com.testoauth.viewMethod.XListView>
 </LinearLayout>

@@ -22,3 +22,9 @@
 # view AndroidManifest.xml #generated:26
 -keep class com.testoauth.im.main.MainInterfaceActivity { <init>(...); }
 
+# view res/layout/network_list_item.xml #generated:9
+-keep class com.testoauth.viewMethod.CircularImageView { <init>(...); }
+
+# view res/layout/network_list.xml #generated:6
+-keep class com.testoauth.viewMethod.XListView { <init>(...); }
+
